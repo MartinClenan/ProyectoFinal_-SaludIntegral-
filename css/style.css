@@ -1,33 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.header{
-    font-family: 'Play', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.imagenLogo{
-    width: 60px;
-    height: 50px;
+body .header {
+  font-family: "Play", sans-serif;
+}
+body .header .imagenLogo {
+  width: 60px;
+  height: 50px;
 }
 
-.formulario{
-    width: 500px;
-    margin: 0px auto;
-    padding: 5px;
+main .formulario {
+  width: 500px;
+  margin: 0px auto;
+  padding: 5px;
+}
+main .custom-img-height {
+  height: 150px; /* Establece la altura deseada */
 }
 
-
-.custom-img-height {
-    height: 150px; /* Establece la altura deseada */
-}
-
-.custom-img-height-combo{
-    height: 150px;
-    width: 350px;
-}
-
-
-    
-   
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    .header{
+        font-family: 'Play', sans-serif;
+        .imagenLogo{
+            width: 60px;
+            height: 50px;
+        }
+    }
+}
+
+main{
+    .formulario{
+        width: 500px;
+        margin: 0px auto;
+        padding: 5px;
+    }
+    .custom-img-height{
+        height: 150px; /* Establece la altura deseada */
+    }
+}
