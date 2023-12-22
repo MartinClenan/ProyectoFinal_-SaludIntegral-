@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--link a la libreria de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -122,55 +124,50 @@
     <main
       class="main flex-grow-1 mt-auto bg-secondary-subtle d-flex flex-column justify-content-center min-vh-100"
     >
-      <div class="card mb-3 mx-auto" style="max-width: 940px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../imagenes/fotoBCAA-NUTRILAB.webp"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Bcaa Recovery</h3>
-              <p class="card-text">
-                BCAA Recovery.
-                Es un compuesto de aminoácidos ramificados (Branched chain amino acid), tres aminoácidos esenciales, es decir que el organismo humano no los puede fabricar, y deben ser administrados desde el exterior mediante la dieta o la suplementación.
-                Esenciales para la reparación muscular, al acelerar la sintesis proteica en entrenamientos intensos.
-                Diminuyendo la fatiga y previniendo la degradación proteica.
-                Esta nueva fórmula está enriquecida con TAURINA, CREATINA MONOHIDRATO, GLUTAMINA y BETA ALANINA.
-              </p>
-              <h5 class="card-title">Modo de uso:</h5>
-              <p class="card-text">
-                Consumir una medida (1 scoops) después de entrenar. Para un
-                excelente sabor, mezclá Reload con 350/400 cm3 de agua fría en
-                un shaker. Agitar energéticamente durante 30 segundos y
-                consumir.
-              </p>
-              <ul class="list-group">
-                <li class="list-group-item">
-                    Mejora la recuperación
-                </li>
-                <li class="list-group-item">
-                    Potencia los beneficios de tu entrenamiento.
-                </li>
-                <li class="list-group-item">
-                    Aminoácidos cruciales para la sintesis de proteína.
-                </li>
-              </ul>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Sabores: Anana, Uva.</small
-                >
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary">Tamaño: 300gr</small>
-              </p>
-            </div>
+    <div class="card mb-3 mx-auto" style="max-width: 940px" data-aos="fade-up">
+      <div class="row g-0" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="../imagenes/fotoBCAA-NUTRILAB.webp" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8" data-aos="fade-left">
+          <div class="card-body">
+            <h3 class="card-title">Bcaa Recovery</h3>
+            <p class="card-text">
+              BCAA Recovery.
+              Es un compuesto de aminoácidos ramificados (Branched chain amino acid), tres aminoácidos esenciales, es decir que el organismo humano no los puede fabricar, y deben ser administrados desde el exterior mediante la dieta o la suplementación.
+              Esenciales para la reparación muscular, al acelerar la síntesis proteica en entrenamientos intensos.
+              Disminuyendo la fatiga y previniendo la degradación proteica.
+              Esta nueva fórmula está enriquecida con TAURINA, CREATINA MONOHIDRATO, GLUTAMINA y BETA ALANINA.
+            </p>
+            <h5 class="card-title">Modo de uso:</h5>
+            <p class="card-text">
+              Consumir una medida (1 scoops) después de entrenar. Para un
+              excelente sabor, mezclá Reload con 350/400 cm3 de agua fría en
+              un shaker. Agitar energéticamente durante 30 segundos y
+              consumir.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">
+                Mejora la recuperación
+              </li>
+              <li class="list-group-item">
+                Potencia los beneficios de tu entrenamiento.
+              </li>
+              <li class="list-group-item">
+                Aminoácidos cruciales para la síntesis de proteína.
+              </li>
+            </ul>
+            <p class="card-text">
+              <small class="text-body-secondary">Sabores: Anana, Uva.</small>
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Tamaño: 300gr</small>
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    
     </main>
 
     <footer class="container-fluid">
@@ -266,5 +263,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

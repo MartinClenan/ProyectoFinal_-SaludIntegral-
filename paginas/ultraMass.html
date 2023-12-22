@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+     <!--link a la libreria de AOS-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -122,29 +124,30 @@
     <main
       class="main flex-grow-1 mt-auto bg-secondary-subtle d-flex flex-column justify-content-center min-vh-100"
     >
-    <div class="card mb-3 mx-auto" style="max-width: 940px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="../imagenes/fotoUltraMass-ENA.webp" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Ultra Mass</h3>
-              <p class="card-text">Ideal para aumento de peso y masa. Más energía, mejor recuperación.
-                Ultra Mass es un alimento natural a base de proteínas de alto valor biológico, carbohidratos, vitaminas, minerales, lipolíticos y grasas esenciales. Aumentar el tamaño de la masa muscular requiere del balance entre un entrenamiento duro y una nutrición de calidad.</p>
-              <h5 class="card-title">Modo de uso:</h5>
-              <p class="card-text">Se deben tomar 2 a 3 medidas a media mañana y 2 o 3 a media tarde, diluidas en 200-250 cm3 de leche o agua. Una medidas es de 35 +/- 5 grs. Lo ideal es consumir con el vaso batidor ENA para lograr una perfecta disolución. Se toma alejado de las comidas.</p>
-                <ul class="list-group">
-                    <li class="list-group-item">25 grs de proteína, 70 grs de carbohidratos.</li>
-                    <li class="list-group-item">2Ganador de peso.</li>
-                    <li class="list-group-item">RIdeal para el aumento masa muscular y peso.</li>
-                  </ul>
-              <p class="card-text"><small class="text-body-secondary">Sabores: Vainilla, Chocolate.</small></p>
-              <p class="card-text"><small class="text-body-secondary">Tamaño: 1.5 Kg</small></p>
-            </div>
+    <div class="card mb-3 mx-auto" style="max-width: 940px;" data-aos="fade-up">
+      <div class="row g-0" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="../imagenes/fotoUltraMass-ENA.webp" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8" data-aos="fade-left">
+          <div class="card-body">
+            <h3 class="card-title">Ultra Mass</h3>
+            <p class="card-text">Ideal para aumento de peso y masa. Más energía, mejor recuperación.
+              Ultra Mass es un alimento natural a base de proteínas de alto valor biológico, carbohidratos, vitaminas, minerales, lipolíticos y grasas esenciales. Aumentar el tamaño de la masa muscular requiere del balance entre un entrenamiento duro y una nutrición de calidad.</p>
+            <h5 class="card-title">Modo de uso:</h5>
+            <p class="card-text">Se deben tomar 2 a 3 medidas a media mañana y 2 o 3 a media tarde, diluidas en 200-250 cm3 de leche o agua. Una medida es de 35 +/- 5 grs. Lo ideal es consumir con el vaso batidor ENA para lograr una perfecta disolución. Se toma alejado de las comidas.</p>
+            <ul class="list-group">
+              <li class="list-group-item">25 grs de proteína, 70 grs de carbohidratos.</li>
+              <li class="list-group-item">Ganador de peso.</li>
+              <li class="list-group-item">Ideal para el aumento masa muscular y peso.</li>
+            </ul>
+            <p class="card-text"><small class="text-body-secondary">Sabores: Vainilla, Chocolate.</small></p>
+            <p class="card-text"><small class="text-body-secondary">Tamaño: 1.5 Kg</small></p>
           </div>
         </div>
       </div>
+    </div>
+    
     </main>
 
     <footer class="container-fluid">
@@ -240,5 +243,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

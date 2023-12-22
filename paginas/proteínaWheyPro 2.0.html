@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--link a la libreria de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -122,36 +124,34 @@
     <main
       class="main flex-grow-1 mt-auto bg-secondary-subtle d-flex flex-column justify-content-center min-vh-100"
     >
-    <div class="card mb-3 mx-auto" style="max-width: 940px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="../imagenes/fotowheyprotein1kg.webp" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Proteína Whey Pro 2.0</h3>
-              <p class="card-text">WUna nutrición balanceada juega un papel fundamental en la calidad de vida. Con el ritmo acelerado que llevan muchas personas, a veces resulta complejo prestar atención a todos los requerimientos que el cuerpo necesita para estar sano y fuerte. En ese sentido, los suplementos cumplen la función de complementar la alimentación y ayudan a obtener las vitaminas, minerales, proteínas y otros componentes indispensables para el correcto funcionamiento del organismo.
-
-                *Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.
-            </p>
-              <h5 class="card-title">Modo de uso:</h5>
-              <p class="card-text">Una nutrición balanceada juega un papel fundamental en la calidad de vida. Con el ritmo acelerado que llevan muchas personas, a veces resulta complejo prestar atención a todos los requerimientos que el cuerpo necesita para estar sano y fuerte. En ese sentido, los suplementos cumplen la función de complementar la alimentación y ayudan a obtener las vitaminas, minerales, proteínas y otros componentes indispensables para el correcto funcionamiento del organismo.
-
-                *Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.</p>
-                <ul class="list-group">
-                    <li class="list-group-item">Componente principal: proteína.</li>
-                    <li class="list-group-item">Tamaño de la porción: 40g.</li>
-                    <li class="list-group-item">Porciones por envase: 25</li>
-                    <li class="list-group-item">Edad mínima recomendada: 1 años.</li>
-                    <li class="list-group-item">Se recomienda consumir todos los días.</li>
-                    <li class="list-group-item">Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.</li>
-                  </ul>
-              <p class="card-text"><small class="text-body-secondary">Sabores: Vainilla, Chocolate.</small></p>
-              <p class="card-text"><small class="text-body-secondary">Tamaño: 1kg</small></p>
-            </div>
+    <div class="card mb-3 mx-auto" style="max-width: 940px;" data-aos="fade-up">
+      <div class="row g-0" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="../imagenes/fotowheyprotein1kg.webp" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8" data-aos="fade-left">
+          <div class="card-body">
+            <h3 class="card-title">Proteína Whey Pro 2.0</h3>
+            <p class="card-text">Una nutrición balanceada juega un papel fundamental en la calidad de vida. Con el ritmo acelerado que llevan muchas personas, a veces resulta complejo prestar atención a todos los requerimientos que el cuerpo necesita para estar sano y fuerte. En ese sentido, los suplementos cumplen la función de complementar la alimentación y ayudan a obtener las vitaminas, minerales, proteínas y otros componentes indispensables para el correcto funcionamiento del organismo.
+            *Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.</p>
+            <h5 class="card-title">Modo de uso:</h5>
+            <p class="card-text">Una nutrición balanceada juega un papel fundamental en la calidad de vida. Con el ritmo acelerado que llevan muchas personas, a veces resulta complejo prestar atención a todos los requerimientos que el cuerpo necesita para estar sano y fuerte. En ese sentido, los suplementos cumplen la función de complementar la alimentación y ayudan a obtener las vitaminas, minerales, proteínas y otros componentes indispensables para el correcto funcionamiento del organismo.
+            *Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.</p>
+            <ul class="list-group">
+              <li class="list-group-item">Componente principal: proteína.</li>
+              <li class="list-group-item">Tamaño de la porción: 40g.</li>
+              <li class="list-group-item">Porciones por envase: 25</li>
+              <li class="list-group-item">Edad mínima recomendada: 1 años.</li>
+              <li class="list-group-item">Se recomienda consumir todos los días.</li>
+              <li class="list-group-item">Este producto es un suplemento dietario, no es un medicamento. Suplementa dietas insuficientes. Consulte a su médico y/o farmacéutico.</li>
+            </ul>
+            <p class="card-text"><small class="text-body-secondary">Sabores: Vainilla, Chocolate.</small></p>
+            <p class="card-text"><small class="text-body-secondary">Tamaño: 1kg</small></p>
           </div>
         </div>
       </div>
+    </div>
+    
     </main>
 
     <footer class="container-fluid">
@@ -247,5 +247,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

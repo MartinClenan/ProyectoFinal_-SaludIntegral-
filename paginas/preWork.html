@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--link a la libreria de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -122,50 +124,47 @@
     <main
       class="main flex-grow-1 mt-auto bg-secondary-subtle d-flex flex-column justify-content-center min-vh-100"
     >
-      <div class="card mb-3 mx-auto" style="max-width: 940px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../imagenes/fotoPRE-ENTRENO-NUTRILAB.webp"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Pre Workout</h3>
-              <p class="card-text">
-                A la hora de entrenar tenemos una serie de exigencias que
-                queremos potenciar: la energía, la fuerza, la intensidad y la
-                recuperación. Actúa movilizando el organismo, dándole el empuje
-                necesario para llevar a cabo entrenamientos más intensos y
-                duraderos.
-              </p>
-              <h5 class="card-title">Modo de uso:</h5>
-              <p class="card-text">
-                PRE es un suplemento dietario a base de de vitaminas, minerales,
-                aminoácidos, carbohidratos y extractos vegetales, pensado para
-                ser consumido 30 minutos antes del entrenamiento.
-              </p>
-              <ul class="list-group">
-                <li class="list-group-item">Energía inmediata.</li>
-                <li class="list-group-item">
-                  Potencia los beneficios de tu entrenamiento.
-                </li>
-                <li class="list-group-item">
-                    Concentración, resistencia y recuperación.
-                </li>
-              </ul>
-              <p class="card-text">
-                <small class="text-body-secondary">Sabores: Manzana verde, Frambuesa.</small>
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary">Tamaño: 300gr</small>
-              </p>
-            </div>
+    <div class="card mb-3 mx-auto" style="max-width: 940px" data-aos="fade-up">
+      <div class="row g-0" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="../imagenes/fotoPRE-ENTRENO-NUTRILAB.webp" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8" data-aos="fade-left">
+          <div class="card-body">
+            <h3 class="card-title">Pre Workout</h3>
+            <p class="card-text">
+              A la hora de entrenar tenemos una serie de exigencias que
+              queremos potenciar: la energía, la fuerza, la intensidad y la
+              recuperación. Actúa movilizando el organismo, dándole el empuje
+              necesario para llevar a cabo entrenamientos más intensos y
+              duraderos.
+            </p>
+            <h5 class="card-title">Modo de uso:</h5>
+            <p class="card-text">
+              PRE es un suplemento dietario a base de vitaminas, minerales,
+              aminoácidos, carbohidratos y extractos vegetales, pensado para
+              ser consumido 30 minutos antes del entrenamiento.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">Energía inmediata.</li>
+              <li class="list-group-item">
+                Potencia los beneficios de tu entrenamiento.
+              </li>
+              <li class="list-group-item">
+                Concentración, resistencia y recuperación.
+              </li>
+            </ul>
+            <p class="card-text">
+              <small class="text-body-secondary">Sabores: Manzana verde, Frambuesa.</small>
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Tamaño: 300gr</small>
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    
     </main>
 
     <footer class="container-fluid">
@@ -261,5 +260,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--link a la libreria de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -122,52 +124,39 @@
     <main
       class="main flex-grow-1 mt-auto bg-secondary-subtle d-flex flex-column justify-content-center min-vh-100"
     >
-      <div class="card mb-3 mx-auto" style="max-width: 940px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="../imagenes/ShakerPremium.webp"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Shaker Premium</h3>
-              <p class="card-text">
-                SHAKER Premium Para un batido sin grumos Nuevo modelo con tapa a
-                rosca y resorte mezclador. Ideal para llevar tu propia bebida, o
-                suplementos en polvo que quieras diluir fácilmente y sin grumos,
-                ya que trae un batidor de acero inoxidable pulido oval para
-                facilitar el batido y su limpieza. Ayuda a romper las partículas
-                de polvo. Es ideal para aquellos productos que requieran una
-                disolución excelente, tanto en agua como en leche. Seguro para
-                lavavajillas, microondas y freezer.
-              </p>
-              <h5 class="card-title">Presentación:</h5>
-              <p class="card-text">Vaso de 500 cm3 (capacidad de batido).</p>
-              <ul class="list-group">
-                <li class="list-group-item">500 cm3</li>
-                <li class="list-group-item">Tapa a rosca.</li>
-                <li class="list-group-item">
-                  Incluye un compartimiento para almacenar proteínas.
-                </li>
-                <li class="list-group-item">
-                  Dispone de un pastillero integrado para tener a mano tus
-                  suplementos en forma de pastillas.
-                </li>
-                <li class="list-group-item">
-                  Tapón a prueba de derrames que asegura un transporte seguro.
-                </li>
-                <li class="list-group-item">
-                  DCómodo y práctico para llevar tus suplementos, para disfrutar
-                  de batidos sin grumos en cualquier momento y lugar.
-                </li>
-              </ul>
-            </div>
+    <div class="card mb-3 mx-auto" style="max-width: 940px" data-aos="fade-up">
+      <div class="row g-0" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="../imagenes/ShakerPremium.webp" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8" data-aos="fade-left">
+          <div class="card-body">
+            <h3 class="card-title">Shaker Premium</h3>
+            <p class="card-text">
+              SHAKER Premium Para un batido sin grumos Nuevo modelo con tapa a
+              rosca y resorte mezclador. Ideal para llevar tu propia bebida, o
+              suplementos en polvo que quieras diluir fácilmente y sin grumos,
+              ya que trae un batidor de acero inoxidable pulido oval para
+              facilitar el batido y su limpieza. Ayuda a romper las partículas
+              de polvo. Es ideal para aquellos productos que requieran una
+              disolución excelente, tanto en agua como en leche. Seguro para
+              lavavajillas, microondas y freezer.
+            </p>
+            <h5 class="card-title">Presentación:</h5>
+            <p class="card-text">Vaso de 500 cm3 (capacidad de batido).</p>
+            <ul class="list-group">
+              <li class="list-group-item">500 cm3</li>
+              <li class="list-group-item">Tapa a rosca.</li>
+              <li class="list-group-item">Incluye un compartimiento para almacenar proteínas.</li>
+              <li class="list-group-item">Dispone de un pastillero integrado para tener a mano tus suplementos en forma de pastillas.</li>
+              <li class="list-group-item">Tapón a prueba de derrames que asegura un transporte seguro.</li>
+              <li class="list-group-item">Cómodo y práctico para llevar tus suplementos, para disfrutar de batidos sin grumos en cualquier momento y lugar.</li>
+            </ul>
           </div>
         </div>
       </div>
+    </div>
+    
     </main>
 
     <footer class="container-fluid">
@@ -263,5 +252,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

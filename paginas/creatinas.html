@@ -17,6 +17,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--link a la libreria de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK DE CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -124,22 +126,23 @@
       <section
         class="container mx-auto formulario text-white text-center container d-grid align-items-center"
       >
-        <div class="card mb-3" style="max-width: 540px">
+        <div class="card mb-3" style="max-width: 540px" data-aos="fade-up">
           <div class="row g-0">
             <div class="col-md-4">
               <img
                 src="../imagenes/fotoCreatinaNutrilab.webp"
                 class="img-fluid rounded-start custom-img-height"
                 alt="..."
+                data-aos="fade-right"
               />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Creatina Crea Shock</h5>
-                <p class="card-text">Precio: $8.000</p>
-                <a href="./creatinaCreaShock.html" class="btn btn-primary">Ver Producto</a>
+                <h5 class="card-title" data-aos="fade-left">Creatina Crea Shock</h5>
+                <p class="card-text" data-aos="fade-left">Precio: $8.000</p>
+                <a href="./creatinaCreaShock.html" class="btn btn-primary" data-aos="fade-left">Ver Producto</a>
                 <p class="card-text">
-                  <small class="text-body-secondary"
+                  <small class="text-body-secondary" data-aos="fade-left"
                     >NUTRILAB</small
                   >
                 </p>
@@ -147,22 +150,23 @@
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px">
+        <div class="card mb-3" style="max-width: 540px" data-aos="fade-up">
           <div class="row g-0">
             <div class="col-md-4">
               <img
                 src="../imagenes/fotoCreatinaENA.webp"
                 class="img-fluid rounded-start custom-img-height"
                 alt="..."
+                data-aos="fade-right"
               />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Creatina Micronizada</h5>
-                <p class="card-text">Precio: $27.740</p>
-                <a href="./creatinaMicronizada.html" class="btn btn-primary">Ver Producto</a>
+                <h5 class="card-title" data-aos="fade-left">Creatina Micronizada</h5>
+                <p class="card-text" data-aos="fade-left">Precio: $27.740</p>
+                <a href="./creatinaMicronizada.html" class="btn btn-primary" data-aos="fade-left">Ver Producto</a>
                 <p class="card-text">
-                  <small class="text-body-secondary"
+                  <small class="text-body-secondary" data-aos="fade-left"
                     >ENA</small
                   >
                 </p>
@@ -254,5 +258,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--LINK SCRIPT de AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>
